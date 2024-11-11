@@ -1,8 +1,8 @@
 :root {
-    --color-white: hsl(0, 0%, 100%);
-    --color-slate-300: hsl(212, 45%, 89%);
-    --color-slate-500: hsl(216, 15%, 48%);
-    --color-slate-900: hsl(218, 44%, 22%);
+    --color-white: #ffffff;
+    --color-slate-300: #d5e1ef;
+    --color-slate-500: #68778d;
+    --color-slate-900: #1f314f;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
 }
 
 main {
@@ -37,11 +38,12 @@ div {
     text-align: center;
 }
 
-.h1 {
+h1 {
     color: var(--color-slate-900);
     font-size: 22px;
     font-weight: bold;
     line-height: 120%;
+    margin: 0;
 
 }
 
@@ -50,4 +52,6 @@ p {
     font-size: 15px;
     line-height: 140%;
     letter-spacing: .2px;
+    margin: 0;
+    margin-top: 16px;
 }

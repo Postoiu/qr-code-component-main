@@ -37,7 +37,7 @@ div {
     text-align: center;
 }
 
-.header {
+.h1 {
     color: var(--color-slate-900);
     font-size: 22px;
     font-weight: bold;
